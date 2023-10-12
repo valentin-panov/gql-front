@@ -40,7 +40,7 @@ export const Test = memo(() => {
     const target = e.target as HTMLFormElement;
     const emailInput = target.elements.namedItem('email') as HTMLInputElement;
     const nameInput = target.elements.namedItem('name') as HTMLInputElement;
-    console.log({ emailInput, nameInput });
+    console.log(emailInput.value, nameInput.value );
   }, []);
 
   const onSubmitMessage = useCallback<FormEventHandler>((e) => {

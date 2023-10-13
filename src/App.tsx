@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { Test } from 'src/screens/Test';
+// eslint-disable-next-line import/no-extraneous-dependencies
 import Cookies from 'universal-cookie';
 import { Client } from './client';
 

@@ -1,9 +1,9 @@
 {
-  "name": "graphql-learn-client",
+  "name": "gql-front",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "git@github.com:spirit-drive/graphql-learn-client.git",
-  "author": "Igor Zvyagin <spirit-drive@yandex.ru>",
+  "repository": "git@github.com:vbalentin.panov/gql-front.git",
+  "author": "Valentin Panov <valentin.panov@me.com>",
   "license": "MIT",
   "scripts": {
     "start": "webpack serve -c webpack.config.dev.js",

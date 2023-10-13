@@ -1,10 +1,10 @@
 const path = require('path');
 const HtmlPlugin = require('html-webpack-plugin');
 
-const port = 8080;
+const port = 5000;
 const dist = path.join(__dirname, 'dist');
 const src = path.join(__dirname, 'src');
-const host = 'localhost';
+const host = 'lvh.me';
 
 module.exports = {
   mode: 'development',

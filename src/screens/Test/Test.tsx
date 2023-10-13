@@ -40,7 +40,7 @@ export const Test = memo(() => {
     const target = e.target as HTMLFormElement;
     const emailInput = target.elements.namedItem('email') as HTMLInputElement;
     const nameInput = target.elements.namedItem('name') as HTMLInputElement;
-    console.log(emailInput.value, nameInput.value );
+    console.log(emailInput.value, nameInput.value);
   }, []);
 
   const onSubmitMessage = useCallback<FormEventHandler>((e) => {
@@ -57,6 +57,7 @@ export const Test = memo(() => {
     <div>
       <div>Профиль</div>
       <div>{JSON.stringify(data)}</div>
+      <br />
       <div>Редактировать профиль</div>
       <form onSubmit={onSubmitEditProfile}>
         <div>email</div>
@@ -67,6 +68,7 @@ export const Test = memo(() => {
           <button type="submit">Редактировать профиль</button>
         </div>
       </form>
+      <br />
       <div>Сообщения</div>
       <div>
         {subscribeData?.messageSent?.map((msg) => (
